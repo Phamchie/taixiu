@@ -21,8 +21,10 @@ with open('data/data_info/nickname.txt', 'r') as nickname:
     nickname = nickname.read()
 
 print(""""
-Tên Nhân Vật : {}
-Số Dư : {}đ
+=============================")
+    Tên Nhân Vật : {}
+    Số Dư : {}đ
+=============================
 """.format(nickname, xu1))
 
 print("""
