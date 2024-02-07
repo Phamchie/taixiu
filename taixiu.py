@@ -12,12 +12,13 @@ def start_xocxoc1():
 
         with open('data/data_info/nickname.txt', 'r' ) as nickname:
             nickname = nickname.read()
-
+        print("=============================")
         print("Tên Nhân Vật : {}".format(nickname))
         print("Số Dư : {}đ".format(so_du1))
+        print("=============================")
         print("""
     ===TÀI XỈU===
-    1, Tài
+    1, TÀI
     2, XỈU
     =============
     """)
