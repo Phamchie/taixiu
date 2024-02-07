@@ -52,14 +52,15 @@ Số Dư Còn Lại : {}đ
                 xucxac2 = random.randint(1, 6)
                 xucxac3 = random.randint(1, 6)
                 ket_qua = int(xucxac1 + xucxac2 + xucxac3)
-                tai = [11,12,13,14,15,16,17,18]
+                tai = [11,12,13,14,15,16,17]
                 xiu = [3,4,5,6,7,8,9,10]
                 if ket_qua == 18:
                     print("Kết Quả")
                     print("TÀI : {}".format(ket_qua))
                     print("Kq Xí Ngầu : {} - {} - {}".format(xucxac1, xucxac2, xucxac3))
-                    cong_tien = int(tien_cuoc * 2 * 88 - (tien_cuoc * 2 / 100))
+                    cong_tien = int(tien_cuoc * 2 * 15 - (tien_cuoc * 2 / 100))
                     ct = "{:,}".format(cong_tien)
+                    print("Nổ Hũ")
                     print("Tiền Thắng : +{}đ".format(ct))
                     so_du0 = str(so_du + cong_tien - tien_cuoc)
                     so_du2 = int(so_du + cong_tien - tien_cuoc)
@@ -116,13 +117,14 @@ Số Dư Còn Lại : {}đ
                 xucxac3 = random.randint(1, 6)
                 ket_qua = int(xucxac1 + xucxac2 + xucxac3)
                 tai = [11,12,13,14,15,16,17,18]
-                xiu = [3,4,5,6,7,8,9,10]
+                xiu = [4,5,6,7,8,9,10]
                 if ket_qua == 3:
                     print("Kết Quả")
                     print("XỈU : {}".format(ket_qua))
                     print("Kq Xí Ngầu : {} - {} - {}".format(xucxac1, xucxac2, xucxac3))
-                    cong_tien = int(tien_cuoc * 2 * 88 - (tien_cuoc * 2 / 100))
+                    cong_tien = int(tien_cuoc * 2 * 15 - (tien_cuoc * 2 / 100))
                     ct = "{:,}".format(cong_tien)
+                    print("Nổ Hũ")
                     print("Tiền Thắng : +{}đ".format(ct))
                     so_du0 = str(so_du + cong_tien - tien_cuoc)
                     so_du2 = int(so_du + cong_tien - tien_cuoc)
