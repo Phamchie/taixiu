@@ -6,8 +6,8 @@ code_num = random.randint(1000000000, 99999999999)
 
 def rut_tien():
     with open('assets/xu.txt', 'r') as so_du5:
-        so_du5 = so_du5.read()
-    rutt = input('Nhập Số Tiền Rút : ')
+        so_du5 = int(so_du5.read())
+    rutt = int(input('Nhập Số Tiền Rút : '))
     if rutt > so_du5:
         print("Bạn Không Đủ Số Dư Để thực hiện giao dịch rút tiền")
         exit()
@@ -17,7 +17,7 @@ def rut_tien():
     stk = input("Nhập Số Tài Khoản : ")
     
     with open('assets/xu.txt', 'r') as so_du:
-        so_du = so_du.read()
+        so_du = int(so_du.read())
         so_du = so_du - rutt
 
     with open('assets/xu.txt', 'w') as so_du1:
